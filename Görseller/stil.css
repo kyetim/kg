@@ -1,0 +1,266 @@
+.logo {
+    height: 80px;
+    position: relative;
+    right: 0;
+}
+
+.logo2 {
+    height: 200px;
+    position: relative;
+    right: 0;
+}
+
+.ayrac {
+    font-size: 20px;
+    margin: 0px 20px;
+    color: white;
+}
+
+
+.ayrac:hover {
+    color: #00820B;
+}
+
+.nav-bg {
+    background-color: rgba(81, 78, 78, 0.429);
+}
+
+.header.yuk{
+    height: calc(50vh - 70px);
+}
+.sayfa-baslik h3{
+    color: #F4B70B;
+    font-weight: bold;
+}
+.sayfa-baslik p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.bilgiler{
+    text-align: left;
+}
+
+.slogan2{
+    background-image: url(napolicity.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 400px;}
+
+    .itabayrak{
+        height: 200px;
+        background-color: #00820bc6;
+        color: #fff;
+    }
+    .itabayrak2{
+            height: 200px;
+    }
+    .itabayrak3 {
+        background-color: #9b0000c9;
+        color: #fff;
+        height: 200px;
+    }
+
+.ust-kisim {
+    background-image: url(romakapak.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.ust-kisim-sayfalar {
+    background-image: url(italykapak4.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-item a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #F4B70B;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 992px) {
+    .ayrac {
+        display: none;
+    }
+
+    .nav-item:hover {
+        background-color: black;
+        background-size: cover;
+    }
+
+}
+
+.bosluk {
+    margin-top: 130px;
+}
+
+.yazi {
+    color: #dac50b;
+    border: none 1px #ffdd01;
+    border-radius: 50px;
+    background-color: rgba(75, 73, 73, 0.441);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Vize Kısmı */
+
+.vize {
+    height: 60px;
+}
+
+.tirnak {
+    color: #F4B70B;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.imza {
+    font-size: 20px;
+}
+
+/* Tarihçe */
+
+.tarihce {
+    background-color: #F4B70B;
+    
+}
+
+.tarihce-ikon {
+    width: 235px;
+    height: 235px;
+    
+}
+
+/* Şehirler */
+
+.genel-yazi{
+    font-size: 18px;
+}
+.gezilecek2{
+    background-color: #F4B70B;
+    background-size: cover;
+}
+.sehirlerbilgi{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sehirlerbilgi2{
+    text-align: justify;
+
+}
+.sehirsilüet1 {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+
+
+/* Slogan */ 
+
+.tirnak1 {
+    color: #F4B70B;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.söz {
+    font-size: 40px;
+    color: white;
+}
+
+.slogan{
+    background-image: url(itanightmap.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 400px;
+}
+.pizza-ikon{
+    font-size: 70px;
+    color: #fff;
+}
+
+/* Yaşam */
+
+.kategoriler {
+    padding: 5px;
+    border: 1px solid transparent;
+   
+}
+.kategoriler:hover{
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.kategoriler img{
+    height: 150px;
+}
+
+/* Neden */
+
+.neden {
+    background-image: url(neden6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: auto;
+    height: 400px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.yavrum {
+    width: auto;
+    height: 300px;
+}
+
+.devam a:hover {
+    color: black !important;
+}
+
+.siirler{
+    height: 700px;
+}
+/* Footer */
+
+.footer {
+    background-color: #2C3E50;
+    width: 100%;
+    height: 300px;
+    color: #95a5a6;
+    
+}
+.footer p {
+    font-size: 18px;
+}
+.footer-sütun {
+    height: 300px;
+}
+.yasambilgi p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+
